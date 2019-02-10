@@ -1,0 +1,69 @@
+<div id="wrapper">
+  <!-- Top Navigation -->
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="navbar-header"> 
+      <div class="top-left-part waves-effect waves-light" [routerLink]="['']">
+        <a class="logo">
+          <b>
+            <img src="assets/images/soi-logo.png" alt="Music " />
+          </b>
+          <span class="hidden-xs"> Sae <strong>Enjoy</strong></span>
+        </a>
+      </div>
+      <ul class="nav navbar-top-links navbar-left hidden-xs">
+        <li>
+          <form role="search" class="app-search hidden-xs">
+            <search-section></search-section>
+          </form>
+        </li>
+      </ul>
+      <ul class="nav navbar-top-links navbar-right pull-right">
+        <li><a class="waves-effect waves-light" [routerLink]="['']">{{'indexHome' | translate | uppercase}}</a></li>
+        <li><a class="waves-effect waves-light" [routerLink]="['/about']">{{'indexAbout' | translate | uppercase}}</a></li>
+        <li class="dropdown"> 
+          <a class="waves-effect waves-light dropdown-toggle" data-toggle="dropdown">
+            <i class="icon-settings"></i>
+          </a>
+          <ul class="dropdown-menu dropdown-wide animated slideInUp">
+            <li>
+              <div class="drop-title">{{'confText' | translate}}</div>
+            </li>
+            <li>
+              <div class="dropdown-title sae-cursor">
+                <a (click)="changeLang('id')">
+                  <div class="flag-img"> 
+                    <img [src]="langFlag('id')" alt="ID" class="img-square"> 
+                    <span class="flag-status pull-right" [ngClass]="{'online': getLangStatus('id'), 'away': getLangStatus('en')}"></span> 
+                  </div>
+                  <div class="dropdown-content">
+                    <h5>Indonesia</h5>
+                    <span class="dropdown-desc">Ganti Bahasa</span> 
+                  </div>
+                </a> 
+              </div>
+            </li>
+            <li>
+              <div class="dropdown-title sae-cursor">
+                <a (click)="changeLang('en')">
+                  <div class="flag-img"> 
+                    <img [src]="langFlag('en')" alt="EN" class="img-square"> 
+                    <span class="flag-status pull-right" [ngClass]="{'online': getLangStatus('en'), 'away': getLangStatus('id')}"></span> 
+                  </div>
+                  <div class="dropdown-content">
+                    <h5>English</h5>
+                    <span class="dropdown-desc">Change Language</span> 
+                  </div>
+                </a> 
+              </div>
+            </li>
+          </ul>
+        </li>
+        
+        <!-- /.dropdown -->
+      </ul>
+    </div>
+    <!-- /.navbar-header -->
+    <!-- /.navbar-top-links -->
+    <!-- /.navbar-static-side -->
+  </nav>
+</div>

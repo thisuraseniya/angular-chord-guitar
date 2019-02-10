@@ -1,0 +1,13 @@
+<div class="col-md-push-1 col-md-3" *ngIf="data.recent[0]">
+	<div class="white-box np">
+		<div class="side-title text-center">
+			<h4><b>{{'side_recent' | translate}}</b></h4>	
+		</div>
+		<ul class="nav sbf sae-striped">
+			<li *ngFor="let band of data.recent">
+				<a class="text-dark" [routerLink]="['/chord','welah','ngarana',band.id]">{{band.judul}}</a>
+			</li>
+		</ul>
+		<div>{{" "}}</div>
+	</div>
+</div>

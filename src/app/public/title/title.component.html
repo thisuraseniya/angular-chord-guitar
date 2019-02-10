@@ -1,0 +1,23 @@
+<div class="page-wrapper">
+  <div class="container-fluid">
+  	<alphabet-section></alphabet-section>
+  	<div class="row">
+  		<div class="col-md-7 col-md-push-1">
+  			<div class="white-box np">
+          <div class="text-center side-title">
+            <h4><b *ngIf="data.selectedBand">{{data.selectedBand}}</b></h4>
+          </div>
+					<ul class="nav sae-striped">
+						<li class="side-title-nc" *ngFor="let r of data.result">
+							<a class="text-dark" [routerLink]="['/chord',s,a,r.id]">{{r.judul}}</a>
+						</li>
+						<li *ngIf="!data.result[0]"><a>{{'errTitle' | translate}}</a></li>
+					</ul>
+  			</div>
+  		</div>
+  		<!-- End Col -->
+
+      <side-recent-section></side-recent-section>
+  	</div>
+	</div>
+</div>

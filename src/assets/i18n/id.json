@@ -1,0 +1,51 @@
+{
+	"title": "Semangat Untuk Berinovasi",
+	"copyright": "Sae 2017",
+	"indexAbout": "Tentang",
+	"indexTerm": "Ketentuan Penggunaan",
+	"indexHome": "Beranda",
+	"lang":"ID",
+	"loadingText":"Silahkan Tunggu..",
+	"noMatchText":"Tidak sesuai",
+	"more":"lainya",
+	"textSearch":"Cari",
+	"confText":"Pengaturan",
+	"bandAlpha":"Band/Artis",
+	"side_recent":"Banyak Dilihat",
+	"pitch-tune":"Ubah Nada",
+
+	"errBand":"Silahkan pilih Band",
+	"errTitle":"Tidak ada lagu untuk ditampilkan",
+
+	"section1_text1_1": "Spirit",
+	"section1_text1_2": "Of",
+	"section1_text1_3": "Inovation",
+
+	"section2_text1": "Music Love Me",
+
+	"section2_text2_1": "10 Terakhir dilihat",
+	"section2_text3_1": "Top 10 Dimainkan",
+	"section2_text2_2": "Nama Band",
+	"section2_text2_3": "Judul",
+	"section2_text2_4": "Aksi",
+	"section2_text2_5": "Hapus",
+	"section2_text2_6": "Lihat",
+
+	"section1_text4_2": "Use in all of your device or even more",
+	"section1_text5_1": "Still No Clue.?",
+	"section1_text5_2": "Why don't you try to contact us below, the more you know then more you'll need.",
+	"tune":"Nada",
+
+	"aboutTitle": "Tentang Situs Ini",
+	"aboutPackage": "Paket Tambahan",
+	"aboutInfo": "Sekilas Info",
+	"aboutP1": "Aplikasi ini sengaja dibuat untuk mempermudah bermain gitar, ini bukan aplikasi terbaik, namun saya yakin aplikasi ini dapat membantu anda.",
+	"aboutP2": "Terima kasih kepada berbagai pihak yang membantu mempermudah pengerjaannya, mohon maaf tidak disebutkan satu per satu.",
+	"aboutP3": "Tidak ada sistem yang sempurna, karena itu aplikasi ini terbuka bagi yang ingin menambahkan dan atau memperbaiki silahkan lihat di sini.",
+	"aboutP4": "Proses berjalan (Keinginan)",
+	"aboutP5": "Kelebihan",
+	"aboutP6": "Kekurangan",
+	"aboutP7": "Terima Kasih"
+
+
+}

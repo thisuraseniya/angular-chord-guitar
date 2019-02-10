@@ -1,0 +1,11 @@
+<input auto-complete type="text" placeholder="{{'textSearch' | translate}}" 
+class="form-control"
+id="search"
+[(ngModel)]="searchValue"
+[source]="data" 
+[min-chars]="2" 
+[loading-text]="'loadingText' | translate" 
+[no-match-found-text]="'noMatchText' | translate"
+[auto-select-first-item]="false"
+>
+<a><i class="fa fa-search"></i></a>

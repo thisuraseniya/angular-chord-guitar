@@ -1,0 +1,51 @@
+{
+	"title": "Spirit Of Inovation",
+	"copyright": "Created by Sae 2017",
+	"indexAbout": "About",
+	"indexTerm": "Term Of Service",
+	"indexHome": "Home",
+	"lang":"EN",
+	"loadingText":"Please Wait..",
+	"noMatchText":"No Data Match.",
+	"more":"Song's",
+	"textSearch":"Search",
+	"confText":"Configuration",
+	"bandAlpha":"Band/Artist",
+	"side_recent":"Recently",
+	"pitch-tune":"Pitch Tune",
+	
+	"errBand":"Please Select Band",
+	"errTitle":"No song to display",
+
+	"section1_text1_1": "Spirit",
+	"section1_text1_2": "Of",
+	"section1_text1_3": "Inovation",
+
+	"section2_text1": "Music Love Me",
+
+	"section2_text2_1": "Last Top 10",
+	"section2_text3_1": "Top 10 Played",	
+	"section2_text2_2": "Name Band",
+	"section2_text2_3": "Title",
+	"section2_text2_4": "Action",
+	"section2_text2_5": "Clear",
+	"section2_text2_6": "Show",
+
+	"section1_text4_2": "Use in all of your device or even more",
+	"section1_text5_1": "Still No Clue.?",
+	"section1_text5_2": "Why don't you try to contact us below, the more you know then more you'll need.",
+	"tune":"Tune",
+
+	"aboutTitle": "About this site",
+	"aboutPackage": "Third party",
+	"aboutInfo": "Some Info",
+	"aboutP1": "This App is made for helping you playing guitar, not the best app but it's sure help.",
+	"aboutP2": "Thank you to people who made code is easier, thanks to all of you.",
+	"aboutP3": "No System Is Safe, because of that this app will be open to add or modify please join here.",
+	"aboutP4": "On Going (wishlist)",
+	"aboutP5": "More",
+	"aboutP6": "Less",
+	"aboutP7": "Thank You"
+
+
+}

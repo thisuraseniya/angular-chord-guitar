@@ -1,0 +1,75 @@
+<div class="page-wrapper">
+  <div class="container-fluid">
+    <div class="row bg-title">
+	    <div class="col-xs-12">
+	    	<div class="container">
+	        <h4 class="page-title"><b>{{'aboutTitle' | translate}}</b></h4>
+	      </div>
+	    </div>
+	  </div>
+    <!-- /row -->
+    <div class="row">
+      <div class="col-md-6">
+    		<div class="white-box np">
+          <div class="box-title side-title">
+            <h4 class="text-center">{{'aboutInfo' | translate }}</h4>  
+          </div>
+          <div class="container-fluid">
+            <p>{{'aboutP1' | translate }}</p>
+            <p>{{'aboutP2' | translate }}</p>
+            <p>{{'aboutP3' | translate }}</p>
+            <b>{{'aboutP4' | translate }}</b>
+            <ul *ngFor="let s of wishlist" style="list-style-type: none;">
+              <li><i class="icon-target"></i> {{s}}</li>
+            </ul>
+
+            <b>{{'aboutP5' | translate }}</b>
+            <ul *ngFor="let s of more" style="list-style-type: none;">
+              <li><i class="icon-check"></i> {{s}}</li>
+            </ul>    
+            <b>{{'aboutP6' | translate }}</b>
+            <ul *ngFor="let s of less" style="list-style-type: none;">
+              <li><i class="icon-hourglass"></i> {{s}}</li>
+            </ul>
+            {{'aboutP7' | translate }}
+          </div>
+    		</div>
+      </div>
+      <!-- End Col -->
+
+      <div class="col-md-6">
+        <div class="white-box np">
+          <div class="box-title side-title">
+            <h4 class="text-center">{{'aboutPackage' | translate}}</h4>            
+          </div>
+          <div class="container-fluid">
+            <ul style="list-style-type: none;">
+              <li><i class="fa fa-check"></i> @angular/animations ^4.2.4</li>
+              <li><i class="fa fa-check"></i> @angular/common ^4.2.4</li>
+              <li><i class="fa fa-check"></i> @angular/compiler ^4.2.4</li>
+              <li><i class="fa fa-check"></i> @angular/core ^4.2.4</li>
+              <li><i class="fa fa-check"></i> @angular/forms ^4.2.4</li>
+              <li><i class="fa fa-check"></i> @angular/http ^4.2.4</li>
+              <li><i class="fa fa-check"></i> @angular/platform-browser ^4.2.4</li>
+              <li><i class="fa fa-check"></i> @angular/platform-browser-dynamic ^4.2.4</li>
+              <li><i class="fa fa-check"></i> @angular/router ^4.2.4</li>
+              <li><i class="fa fa-check"></i> @ngui/auto-complete ^0.16.0</li>
+              <li><i class="fa fa-check"></i> @ngx-translate/core ^8.0.0</li>
+              <li><i class="fa fa-check"></i> @ngx-translate/http-loader ^2.0.0</li>
+              <li><i class="fa fa-check"></i> @types/file-saver 0.0.1</li>
+              <li><i class="fa fa-check"></i> @types/lodash ^4.14.78</li>
+              <li><i class="fa fa-check"></i> animate.css 3.5.2</li>
+              <li><i class="fa fa-check"></i> bootstrap ^3.3.7</li>
+              <li><i class="fa fa-check"></i> core-js ^2.4.1</li>
+              <li><i class="fa fa-check"></i> ng2-toastr ^4.1.2</li>
+              <li><i class="fa fa-check"></i> ngx-bootstrap ^1.9.3</li>
+              <li><i class="fa fa-check"></i> node-waves ^0.7.5</li>
+              <li><i class="fa fa-check"></i> rxjs ^5.4.2</li>
+              <li><i class="fa fa-check"></i> zone.js ^0.8.14"</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

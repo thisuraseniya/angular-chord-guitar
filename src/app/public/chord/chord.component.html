@@ -1,0 +1,54 @@
+<div class="page-wrapper">
+  	<div class="container-fluid">
+	  	<alphabet-section></alphabet-section>
+	  	<div class="row">
+	  		<div class="col-md-push-1 col-md-7">
+	  			<div class="row">
+	  				<div class="col-md-12">
+						<div class="white-box text-center np">
+							<div class="box-title side-title">
+								<h4 class=""><b>{{bandTitle}}</b> - {{bandName}}</h4>
+							</div>
+							<span class="pitch-tune">
+								<span (click)="changeChordMinus()" class="btn btn-round btn-info waves-effect waves-dark">{{"tune" | translate}} (-)</span>
+								<span> {{'pitch-tune' | translate}} </span>
+								<span (click)="changeChordPlus()"  class="btn btn-round btn-info waves-effect waves-darks">{{"tune" | translate}} (+)</span>
+							</span>	
+						</div>
+	  					<div class="white-box text-dark left-mark">
+	  						<p class="soi"></p>
+	  					</div>
+	  				</div>
+
+	  				<div class="col-md-12 hide-xs">
+	  					<div class="white-box text-center np">
+	  						<h2 class="side-title ">banner</h2>
+	  						<div class="baso">
+	  							baso tahu, dan lain lain
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</div>
+			</div>
+			<!-- End Col -->
+
+			<side-recent-section></side-recent-section>
+
+			<div class="col-md-push-1 col-md-3" *ngIf="data.other[0]">
+				<div class="white-box np">
+					<div class="side-title text-center">
+						<h4><b>{{bandName}}</b> {{'more' | translate}}</h4>	
+					</div>
+					<ul class="nav sbf">
+						<li *ngFor="let band of data.other">
+							<a class="text-dark" *ngIf="band.id_abjad == s" [routerLink]="['/chord',s,a,band.id]">{{band.judul}}</a>
+						</li>
+					</ul>
+					<div>{{" "}}</div>
+				</div>
+			</div>
+			<!-- End Col -->
+
+		</div>
+	</div>
+</div>

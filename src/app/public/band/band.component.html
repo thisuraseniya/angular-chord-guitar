@@ -1,0 +1,23 @@
+<div class="page-wrapper">
+  <div class="container-fluid">
+  	<alphabet-section></alphabet-section>
+  	<div class="row">
+  		<div class="col-md-7 col-md-push-1">
+  			<div class="white-box np">
+          <div class="text-center side-title">
+  				  <h4><b>{{'bandAlpha' | translate}} (<span class="text-center" *ngIf="data.selectedChar">{{data.selectedChar | uppercase}}</span>)</b></h4>
+          </div>
+					<ul class="nav sae-striped">
+						<li class="side-title-nc" *ngFor="let band of data.obj">
+							<a class="text-dark" *ngIf="band.id_abjad == s" [routerLink]="['/title',s,band.id_band]">{{band.nama_band}}</a>
+						</li>
+            <li *ngIf="!data.obj[0]"><a class="">{{'errBand' | translate}}</a></li>
+					</ul>
+  			</div>
+  		</div>
+  		<!-- End Col -->
+
+      <side-recent-section></side-recent-section>
+  	</div>
+	</div>
+</div>

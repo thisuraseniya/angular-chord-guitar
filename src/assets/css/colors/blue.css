@@ -1,0 +1,71 @@
+.preloader {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  z-index: 99999;
+  background: #fff;
+}
+.preloader .cssload-speeding-wheel {
+  position: absolute;
+  top: calc(50% - 3.5px);
+  left: calc(50% - 3.5px);
+}
+/*Just change your choise color here its theme Colors*/
+body {
+  background: #000;
+}
+/*Top Header Part*/
+.top-left-part {
+  background: rgba(0, 0, 0, 0.04);
+}
+.logo i {
+  color: #ffffff;
+}
+.navbar-header {
+  background: #03a9f3 !important;
+}
+.navbar-top-links > li > a {
+  color: #ffffff;
+}
+/*Right panel*/
+.right-sidebar .rpanel-title {
+  background: #03a9f3 !important;
+}
+/*Bread Crumb*/
+.bg-title .breadcrumb .active {
+  color: #03a9f3 !important;
+}
+
+/*Button*/
+.btn-custom {
+  background: #03a9f3;
+  border: 1px solid #03a9f3;
+  color: #ffffff;
+}
+.btn-custom:hover {
+  background: #03a9f3;
+  opacity: 0.8;
+  color: #ffffff;
+  border: 1px solid #03a9f3;
+}
+/*Custom tab*/
+.customtab li.active a,
+.customtab li.active a:hover,
+.customtab li.active a:focus {
+  border-bottom: 2px solid #03a9f3;
+  color: #03a9f3;
+}
+.tabs-vertical li.active a,
+.tabs-vertical li.active a:hover,
+.tabs-vertical li.active a:focus {
+  background: #03a9f3;
+  border-right: 2px solid #03a9f3;
+}
+/*Nav-pills*/
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  background: #03a9f3;
+  color: #ffffff;
+}

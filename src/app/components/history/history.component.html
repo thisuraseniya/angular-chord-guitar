@@ -1,0 +1,22 @@
+<div class="white-box">
+  <div class="text-center">
+    <h3 class="box-title">{{'section2_text2_1' | translate }}</h3>
+    <p class="text-muted">{{'section2_text2_1' | translate }} <code>HOT</code></p>
+  </div>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th> {{'section2_text2_2' | translate }} </th>
+        <th> {{'section2_text2_3' | translate }} </th>
+        <th> {{'section2_text2_4' | translate }} <small>(<a (click)="clearStorage()">{{'section2_text2_5' | translate}}</a>)</small></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let s of data.history">
+        <td> {{s.nama_band}} </td>
+        <td> {{s.judul}} </td>
+        <td> <a class="" [routerLink]="['/chord', s.id_abjad, s.id_band, s.id]">{{'section2_text2_6' | translate}}</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
