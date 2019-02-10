@@ -23,6 +23,8 @@ export class AppComponent {
       }
 
     });
+    console.info('Spirit Of Inovation, is Old project created without browsing internet and my first time learn Angular 2 with Angular CLI 1.4.9')
+    console.info('created offline by downlading angular 2 documenttation and some other package by random at first. until now is not updated')
   }
 
   getLoading(){
