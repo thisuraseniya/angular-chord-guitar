@@ -1,7 +1,11 @@
-#SoiApp
+# SoiApp
 **Spirit Of Inovation**
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
+
+## Live
+
+you can found this on [devweb.id]:http://devweb.id
 
 ## Development server
 
